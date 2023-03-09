@@ -9,5 +9,5 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
 
-  div.innerHTML = "<p>" + titulo.value + detalle.value + "</p>";
+  div.innerHTML = "<p>" + titulo.value +  "<br>" + detalle.value + "</p>";
 });
